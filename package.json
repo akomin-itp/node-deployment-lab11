@@ -13,6 +13,7 @@
     "express": "5.3.0"
   },
   "lab": {
-    "P1": "Додайте scripts.start і scripts.dev за кроком 2 методички."
+    "start": "node src/server.js",
+    "dev": "node --env-file=.env src/server.js"
   }
 }
