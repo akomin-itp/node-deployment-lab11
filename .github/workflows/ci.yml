@@ -1,0 +1,12 @@
+name: API checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # TODO P3: додайте steps для checkout, Node.js 24, npm ci та npm test.
